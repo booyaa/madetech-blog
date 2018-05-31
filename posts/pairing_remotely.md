@@ -23,7 +23,15 @@
     - Pros: 
     - Cons: atom only
   - Visual Studio's Live Share
-    - Pros: debugging
+    - How it works
+      - You install the extension
+      - Signin using Live or Github
+      - Share the project you're currently in
+      - Send pairing partner the sharing URL
+    - Pros: 
+      - debugging (if language extension supports it)
+      - shared terminal
+      - ability to nudge someone (follow me), to avoid voice chat (kinda goes against pairing)
     - Cons: 
       - Visual Studio Code and Pro only.
       - Reliant on language support extension to implement features i.e. RLS extension doesn't work. Where as typescript does (demo video implies this, but should also test).
