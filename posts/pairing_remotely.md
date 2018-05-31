@@ -24,9 +24,11 @@
     - Cons: atom only
   - Visual Studio's Live Share
     - Pros: debugging
-    - Cons: Visual Studio Code and Pro only.
-- Summary
-  - There's no clear winner, but floobit has the advantage of supporting so many editors and terminal support. Ideally we should adopt something similar to Language Support Protocol, a common protocol that allows us to share editor changes and allow the editor to implement.
+    - Cons: 
+      - Visual Studio Code and Pro only.
+      - Reliant on language support extension to implement features i.e. RLS extension doesn't work. Where as typescript does (demo video implies this, but should also test).
+  - Summary
+    - There's no clear winner, but floobit has the advantage of supporting so many editors and terminal support. Ideally we should adopt something similar to Language Support Protocol, a common protocol that allows us to share editor changes and allow the editor to implement.
 
 ### The problem
 
